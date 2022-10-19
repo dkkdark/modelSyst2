@@ -15,4 +15,4 @@ x0 = 1
 res1 = mm.multMethod(n1, A, B, x0)
 
 
-print(mm.freqNumbers(res1, A, B, m))
+print(mm.freqNumbers(res1, A, B, m, n1))

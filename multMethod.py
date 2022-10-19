@@ -20,7 +20,7 @@ def multMethod(n, A, B, x0):
 Функция для 5 и 6 заданий
 """
 # Выводит массив, в котором индекс - случайное число, а значение - число его повторений
-def freqNumbers(res, A, B, m):
+def freqNumbers(res, A, B, m, n):
     S = (B - A) / m
     freq = []
     for i in range(0, m-1):
@@ -28,4 +28,5 @@ def freqNumbers(res, A, B, m):
         for j in range(0, len(res)):
             t = int(res[j]/S)
             freq[t] = freq[t] + 1
-    return freq
+    res = [x / n for x in freq]
+    return res
