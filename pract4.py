@@ -15,11 +15,15 @@ res4 = mm.multMethod(n4, A, B, x0)
 
 
 def period(n, res):
-    for i in range(0, n):
-        for j in range(i+1, n):
+    for i in range(1, n):
+        for j in range(i+2, n):
             if res[i] == res[j]:
                 return j-i
     return -1
 
 
+print(period(n1, res1))
+print(period(n2, res2))
+print(period(n3, res3))
 print(period(n4, res4))
+print(res2)

@@ -33,24 +33,21 @@ ax[3].bar(x, fr4)
 
 fig.set_figwidth(24)
 fig.set_figheight(18)
-plt.show()
+#plt.show()
 
 
 # Присон
-nj1 = n1 / 10  # 10
-nj2 = n2 / 10  # 100
-nj3 = n3 / 10  # 1000
-nj4 = n4 / 10  # 10000
+nj = 1 / 10
 sum1 = 0
 sum2 = 0
 sum3 = 0
 sum4 = 0
 for i in fr1:
-    sum1 += ((nj1 - i)**2)/i
+    sum1 += ((nj - i)**2)/i
 for i in fr2:
-    sum2 += ((nj2 - i)**2)/i
+    sum2 += ((nj - i)**2)/i
 for i in fr3:
-    sum3 += ((nj3 - i)**2)/i
+    sum3 += ((nj - i)**2)/i
 for i in fr4:
-    sum4 += ((nj4 - i)**2)/i
+    sum4 += ((nj - i)**2)/i
 print(sum1, sum2, sum3, sum4)
