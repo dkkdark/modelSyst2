@@ -8,4 +8,4 @@
 Скриншот из 6 задания:
 
 
-![myplot1](https://user-images.githubusercontent.com/49618961/192823880-97de9bf8-0cab-49ed-a5ef-50a0facb8ac4.png)
+![myplot](https://user-images.githubusercontent.com/49618961/196694206-3885a235-76ba-4a9d-9991-021c110e13c4.png)
